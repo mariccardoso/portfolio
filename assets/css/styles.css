@@ -9,9 +9,9 @@
 
 :root {
     --bg-color: linear-gradient(180deg,
-            rgba(247, 1, 120, 1)0%,
-            rgba(160, 8, 160, 1)51%,
-            rgba(99, 13, 178, 1)100%)
+            rgba(5,55,132, 1)0%,
+            rgba(58, 120, 212, 1)51%,
+            rgba(130,186,255, 1)100%)
 }
 
 a {
@@ -127,7 +127,7 @@ section {
     font-weight: 700;
     margin-bottom: 1rem;
     color: transparent;
-    -webkit-text-stroke: 0.1vw #770753;
+    -webkit-text-stroke: 0.1vw #3A78D4;
     background: var(--bg-color);
     background-repeat: no-repeat;
     -webkit-background-clip: text;
@@ -172,7 +172,7 @@ section {
 .social-media a {
     width: 40px;
     height: 40px;
-    color: #ba0b85;
+    color: #3A78D4;
     background: #fff;
     display: inline-flex;
     justify-content: center;
@@ -215,9 +215,11 @@ section {
 
 .sally img {
     position: relative;
-    width: 430px;
+    width: 545px;
     height: auto;
-    z-index: 10;
+    z-index: 3;
+    padding-top: 15%;
+    margin-left: 1%;
 }
 .rotate-text{
     position: absolute;
@@ -265,15 +267,16 @@ section {
     height: 515px;
     border-radius: 50%;
     background-color: #f2f4fb;
-    box-shadow: 0px 1px 6px 5.94px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 1px 6px 6px rgba(0, 0, 0, 0.2);
     animation: rotatetext 30s linear infinite;
 }
 .text b{
     position: absolute;
     transform-origin: 0 257px;
-    display: block;
+    display: block; 
     top: 0;
     left: 50%;
+    font-size: 1rem;
 }
 
 /* @keyframes */
